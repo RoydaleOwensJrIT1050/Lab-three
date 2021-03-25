@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<head>
+    <title>Face Maker</title>
+    <meta charset="UTF-8">
+    <link href="Index.css" rel="StyleSheet">
+</head>
+
+<body>
+    <h1>Anime Face Creator</h1>
+    <div class="face">
+         <img class="insideface" id="MD" src="images/Face2.png" alt=" head shape">
+        <img class="insideface" id="Hair" src="images/BLONDE.png" alt="Hair">
+        <img class="insideface" id="Eyes" src="images/Eyes3.png" alt="Eyes">
+        <img class="insideface" id="Mouth" src="images/Mouth1.png" alt="Mouth">
+    
+        
+   </div>
+   <div class="types">
+    <h2>Hair</h2>
+   <h3>Brown Hair</h3>
+   <button onclick="brownhairbutton()">Click</button>
+    <h3> Blonde Hair </h3>
+    <button onclick="redhairbutton()">Click</button>
+    <h3>Black Hair</h3>
+   <button onclick="hairbutton()">Hair</button>
+   
+   <h2>Eyes</h2>
+   <h3>Eyes One</h3>
+   <button onclick="eyeonebutton()">Click</button>
+   <h2>Eyes Two</h2>
+   <button onclick="eyetwobutton()">Click</button>
+   <h3>Eyes Three</h3>
+   <button onclick="eyethreebutton()">Click</button>
+   
+   <h3>Mouth</h3>
+   <h2>Mouth One</h2>
+   <button onclick="mouthone()">Click</button>
+   <h2>Mouth Two</h2>
+   <button onclick="mouthtwo()">Click</button>
+   <h3>Mouth Three</h3>
+   <button onclick="mouththree()">Click</button>
+   </div>
+<script>
+    
+    var coinsound = new Audio("Coin.mp3")
+   function hairbutton() {
+       document.getElementById("Hair").src="images/Hair2(BLACK).png";
+       document.getElementById("Hair").alt="Black Hair";
+        coinsound.play();
+       }
+    function brownhairbutton(){
+        document.getElementById("Hair").src="images/Hair3(BROWN).png";
+        document.getElementById("Hair").alt="Brown Hair";
+        coinsound.play();
+    }
+    function redhairbutton(){
+        document.getElementById("Hair").src="images/BLONDE.png";
+        document.getElementById("Hair").alt="Red Hair";
+        coinsound.play();
+    }
+    function eyeonebutton(){
+        document.getElementById("Eyes").src="images/Eyes3.png";
+        document.getElementById("Eyes").alt="Eyes 1";
+        coinsound.play();
+    }
+    function eyetwobutton(){
+        document.getElementById("Eyes").src="images/Eyes4.png";
+        document.getElementById("Eyes").alt="Eyes 2";
+        coinsound.play();
+    }
+    function eyethreebutton(){
+
+        document.getElementById("Eyes").src="images/Eyes5.png";
+        document.getElementById("Eyes").alt="Eyes 3";
+        coinsound.play();
+    }
+    function mouthone(){
+        document.getElementById("Mouth").src="images/mouth2.png";
+        document.getElementById("Mouth").alt="M1";
+        coinsound.play();
+    }
+    function mouthtwo(){
+        document.getElementById("Mouth").src="images/mouth3.png";
+        document.getElementById("Mouth").alt="M2";
+        coinsound.play();
+    }
+    function mouththree(){
+        document.getElementById("Mouth").src="images/mouth5.png";
+        document.getElementById("Mouth").alt="M3";
+        coinsound.play();
+    }
+</script>
+</body>
+

@@ -1,0 +1,47 @@
+body
+{
+    background-color: silver;
+}
+h1
+{
+    color: white;
+    letter-spacing: 5px;
+    
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+h3
+{
+    color: white;
+
+    
+}
+
+.face
+{
+    position:relative;
+    height: 320px;
+    width: 320px;
+   
+
+    
+
+}
+.insideface
+{
+position: absolute;
+top: 0px;
+left: 0px;
+
+
+
+
+}
+.types
+{
+    list-style-type: none;
+    display: inline;
+    
+    float:left ;
+}
